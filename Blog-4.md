@@ -26,3 +26,6 @@ solve(k:xs) = length [undefined | (i, xi) <- zip [0..] xs,
 Analysis:
 
 We start with list comprehension. The line [(i, j) | i <- [1 .. 10], j <- [1 .. 10]] creates an array of (i,j) pairs, matching every i to every j to create a cartesian product.
+
+TODO:
+length, undefined, zip
