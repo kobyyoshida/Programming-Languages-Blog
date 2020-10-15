@@ -1,4 +1,4 @@
-Newcomers and Functional Programming
+# Newcomers and Functional Programming
 
 Newcomers learn functional programming by trying it and working with it. Watching videos and having articles as guidance is a good help, but newcomers will need to start practicing things.
 
