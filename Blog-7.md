@@ -4,7 +4,7 @@ Hoare Logic is a system with a set of rules for determining the correctness of p
 
 Hoare Triple
 
-A Hoare Triple is the main component of Hoare Logic. A triple describes how code execution changes the state of the computation.
+A Hoare Triple is the main component of Hoare Logic. A triple describes how execution changes the state of a computation. 
 
 Example
 
