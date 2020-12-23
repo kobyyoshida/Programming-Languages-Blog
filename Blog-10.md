@@ -18,8 +18,8 @@ A monad is a method to organize computations into terms of sequences of values. 
 
 Monoids vs Monads
 
-Technically, a monad is a monoid. However, there are differences when they are put to use. A monad is a specific type of monoid that
+Technically, a monad is a monoid. However, there are differences when they are put to use. Typically, a monoid is the smallest operation of combination of elements. A monad is a specific type of monoid where we are breaking down a computation into each step of said computation. 
 
 Functors
 
-A functor is a constant that transforms each element of a list. For example, if we multiplied each integer in a list by 3, or added an x to the end of every string in a list. 
+A functor is a constant that transforms each element of a list. For example, if we multiplied each integer in a list by 3, or added an x to the end of every string in a list. Functors are relevant to monads and monoids because every monad is using some sort of functor to complete its task.
